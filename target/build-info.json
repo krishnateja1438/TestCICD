@@ -1,0 +1,50 @@
+{
+  "version" : "1.0.1",
+  "name" : "NodeJS",
+  "number" : "39",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.5.0"
+  },
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "2.67"
+  },
+  "started" : "2017-10-16T19:20:52.169+0530",
+  "durationMillis" : 2300,
+  "principal" : "admin",
+  "artifactoryPluginVersion" : "2.12.2",
+  "url" : "http://localhost:8080/job/NodeJS/39/",
+  "vcs" : [ {
+    "revision" : "086c6045a409dfc123a238cdea29e0750d7adfb1",
+    "url" : "https://github.com/krishnateja1438/nodejsCICD.git"
+  } ],
+  "vcsRevision" : "086c6045a409dfc123a238cdea29e0750d7adfb1",
+  "vcsUrl" : "https://github.com/krishnateja1438/nodejsCICD.git",
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "modules" : [ {
+    "properties" : { },
+    "id" : "NodeJs:NodeJS:39-SNAPSHOT",
+    "artifacts" : [ {
+      "type" : "war",
+      "sha1" : "791de76ab68fbe36f91f4a62fca4bb11f47e1cf7",
+      "md5" : "c15b683a7bf0805d357c607075a3d45a",
+      "name" : "NodeJS-39-SNAPSHOT.war"
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
